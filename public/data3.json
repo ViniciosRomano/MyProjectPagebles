@@ -1,0 +1,629 @@
+{
+    "content": [
+        {
+            "ID": 1,
+            "DESCRIPTION": "System",
+            "HOME": "/mbbr/security-app/home",
+            "REDE": null
+        },
+        {
+            "ID": 2,
+            "DESCRIPTION": "Martin Brower BR",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 3,
+            "DESCRIPTION": "McDonald's BR",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "MCD"
+        },
+        {
+            "ID": 4,
+            "DESCRIPTION": "Bob's",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "BBS"
+        },
+        {
+            "ID": 5,
+            "DESCRIPTION": "Domino's",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "DMN"
+        },
+        {
+            "ID": 6,
+            "DESCRIPTION": "IMC",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 7,
+            "DESCRIPTION": "Martin Brower PR",
+            "HOME": "/wpr2/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 9,
+            "DESCRIPTION": "Category",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "CMG"
+        },
+        {
+            "ID": 10,
+            "DESCRIPTION": "Subway BR",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "SUB"
+        },
+        {
+            "ID": 11,
+            "DESCRIPTION": "Bobs BR",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "BOB"
+        },
+        {
+            "ID": 12,
+            "DESCRIPTION": "McDonalds BR",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "C"
+        },
+        {
+            "ID": 13,
+            "DESCRIPTION": "Martin-Brower",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 14,
+            "DESCRIPTION": "Giraffas Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "GFF"
+        },
+        {
+            "ID": 15,
+            "DESCRIPTION": "Domino's Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "DOM"
+        },
+        {
+            "ID": 16,
+            "DESCRIPTION": "Pizza Hut Novo Porta",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "PHU"
+        },
+        {
+            "ID": 17,
+            "DESCRIPTION": "Griletto Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "GLT"
+        },
+        {
+            "ID": 18,
+            "DESCRIPTION": "KFC Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "KFC"
+        },
+        {
+            "ID": 19,
+            "DESCRIPTION": "McDonalds Porto Rico",
+            "HOME": "/wpr2/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 20,
+            "DESCRIPTION": "Churchs Porto Rico",
+            "HOME": "/wpr2/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 21,
+            "DESCRIPTION": "Cinemark",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "CMK"
+        },
+        {
+            "ID": 22,
+            "DESCRIPTION": "McDonalds Costa Rica",
+            "HOME": "/wcr/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 23,
+            "DESCRIPTION": "Rascal",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 24,
+            "DESCRIPTION": "McDonalds Panama",
+            "HOME": "/wpa/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 25,
+            "DESCRIPTION": "Cinepolis Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "CIN"
+        },
+        {
+            "ID": 26,
+            "DESCRIPTION": "prodelog",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 27,
+            "DESCRIPTION": "Subway Panama",
+            "HOME": "/wpa/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 28,
+            "DESCRIPTION": "Freddo Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "FRD"
+        },
+        {
+            "ID": 29,
+            "DESCRIPTION": "McDonalds",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 30,
+            "DESCRIPTION": "Griletto",
+            "HOME": "/MBApp/Portal",
+            "REDE": "TTO"
+        },
+        {
+            "ID": 31,
+            "DESCRIPTION": "sgtlog",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 32,
+            "DESCRIPTION": "Fornecedores",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": "F"
+        },
+        {
+            "ID": 33,
+            "DESCRIPTION": "Taco Bell Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "TBE"
+        },
+        {
+            "ID": 34,
+            "DESCRIPTION": "Yoggi Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": "YGG"
+        },
+        {
+            "ID": 35,
+            "DESCRIPTION": "AppleBees Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 36,
+            "DESCRIPTION": "Martin-Brower Puerto Rico",
+            "HOME": "/MBAppCAPR/MBPortalPRM",
+            "REDE": null
+        },
+        {
+            "ID": 37,
+            "DESCRIPTION": "Martim-Brower Panama",
+            "HOME": "/MBAppCAPA/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 38,
+            "DESCRIPTION": "Martin-Brower CR",
+            "HOME": "/MBAppCACR/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 39,
+            "DESCRIPTION": "Baskin Robbins",
+            "HOME": "/wpr2/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 40,
+            "DESCRIPTION": "Yogen Fruz",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 41,
+            "DESCRIPTION": "Pollo",
+            "HOME": "/wpr2/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 42,
+            "DESCRIPTION": "Doggis Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 43,
+            "DESCRIPTION": "Freddo",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 44,
+            "DESCRIPTION": "Logmam",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 45,
+            "DESCRIPTION": "AppleBees",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 46,
+            "DESCRIPTION": "Femsa",
+            "HOME": "/MBApp/eFornecedores",
+            "REDE": null
+        },
+        {
+            "ID": 47,
+            "DESCRIPTION": "Carl's Junior PA",
+            "HOME": "/wpa/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 48,
+            "DESCRIPTION": "Yes Cargas",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 49,
+            "DESCRIPTION": "VIGOR",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 50,
+            "DESCRIPTION": "Bobs",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 51,
+            "DESCRIPTION": "McDonalds Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 52,
+            "DESCRIPTION": "KERRY",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 53,
+            "DESCRIPTION": "Quiznos Stores",
+            "HOME": "/wpa/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 54,
+            "DESCRIPTION": "Cinepolis",
+            "HOME": "/MBApp/Portal",
+            "REDE": "CCI"
+        },
+        {
+            "ID": 55,
+            "DESCRIPTION": "FsbFoods",
+            "HOME": "/MBApp/eFornecedores",
+            "REDE": null
+        },
+        {
+            "ID": 56,
+            "DESCRIPTION": "Parmalat",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 57,
+            "DESCRIPTION": "Dos Pinos",
+            "HOME": "/wcr/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 58,
+            "DESCRIPTION": "Wendys Stores Panama",
+            "HOME": "/wpa/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 59,
+            "DESCRIPTION": "Yoggi",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 60,
+            "DESCRIPTION": "Zeus Transportes",
+            "HOME": "/MBApp/rcs",
+            "REDE": null
+        },
+        {
+            "ID": 61,
+            "DESCRIPTION": "Carl's Junior",
+            "HOME": "/wcr/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 62,
+            "DESCRIPTION": "BUNGE ALIMENTOS",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 63,
+            "DESCRIPTION": "B O Packaging",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 64,
+            "DESCRIPTION": "altacoppo",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 65,
+            "DESCRIPTION": "GL FOODS",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 66,
+            "DESCRIPTION": "KERRY DO BRASIL",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 67,
+            "DESCRIPTION": "AllFoods",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 68,
+            "DESCRIPTION": "AB Brasil",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 69,
+            "DESCRIPTION": "Subway",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 70,
+            "DESCRIPTION": "TRENIER",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 71,
+            "DESCRIPTION": "Starbucks Panama",
+            "HOME": "/wpa/web-portal-ca/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 72,
+            "DESCRIPTION": "Reabertura RCS",
+            "HOME": "/MBApp/",
+            "REDE": null
+        },
+        {
+            "ID": 73,
+            "DESCRIPTION": "Mccain",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 74,
+            "DESCRIPTION": "MARFRIG",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 75,
+            "DESCRIPTION": "Bunge",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 76,
+            "DESCRIPTION": "MCCAIN",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 77,
+            "DESCRIPTION": "SOLUPLEX",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 78,
+            "DESCRIPTION": "Seara Alimentos",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 79,
+            "DESCRIPTION": "Sempre IT",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 80,
+            "DESCRIPTION": "BRF",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 81,
+            "DESCRIPTION": "Coopercarga",
+            "HOME": "/MBApp/Portal/",
+            "REDE": null
+        },
+        {
+            "ID": 82,
+            "DESCRIPTION": "Giraffas",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 83,
+            "DESCRIPTION": "Griletto Novo Portal",
+            "HOME": "/wbr/web-portal/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 84,
+            "DESCRIPTION": "ESSITY DO BRASIL",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 85,
+            "DESCRIPTION": "FORNO DE MINAS",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 86,
+            "DESCRIPTION": "Diversey Brasil",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 87,
+            "DESCRIPTION": "Fini",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 88,
+            "DESCRIPTION": "Kerry",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 89,
+            "DESCRIPTION": "dayhome",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 90,
+            "DESCRIPTION": "Braslo",
+            "HOME": "/MBApp/eFornecedores",
+            "REDE": null
+        },
+        {
+            "ID": 91,
+            "DESCRIPTION": "CARGILL",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 92,
+            "DESCRIPTION": "BRF S.A.",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 93,
+            "DESCRIPTION": "BOM SABOR",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 94,
+            "DESCRIPTION": "BRASILIA ALIMENTOS LTDA.",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 95,
+            "DESCRIPTION": "BIMBO DO BRASIL",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 96,
+            "DESCRIPTION": "Bimbo",
+            "HOME": "/MBApp/Portal",
+            "REDE": null
+        },
+        {
+            "ID": 97,
+            "DESCRIPTION": "autopel",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 98,
+            "DESCRIPTION": "AGC BRASIL COMERCIAL ",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 99,
+            "DESCRIPTION": "ArtFix",
+            "HOME": "/MBApp/eConhecimento",
+            "REDE": null
+        },
+        {
+            "ID": 100,
+            "DESCRIPTION": "riacho",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        },
+        {
+            "ID": 101,
+            "DESCRIPTION": "SUSTENTARE",
+            "HOME": "/mbbr/crmfornec/#/auth",
+            "REDE": null
+        }
+    ],
+    "pageable": {
+        "pageNumber": 0,
+        "pageSize": 100,
+        "sort": {
+            "sorted": true,
+            "unsorted": false,
+            "empty": false
+        },
+        "offset": 0,
+        "unpaged": false,
+        "paged": true
+    },
+    "totalPages": 14,
+    "totalElements": 1339,
+    "last": false,
+    "size": 100,
+    "number": 0,
+    "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+    },
+    "first": true,
+    "numberOfElements": 100,
+    "empty": false
+}
