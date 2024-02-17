@@ -25,11 +25,6 @@ const columns = [
       :ajax="{
         url: '/data2.json',
         dataSrc: 'content',
-        data: function(data) {
-          // Adicione os parâmetros de paginação aqui
-          data.pageNumber = data.start / data.length + 1; // Calcula o número da página
-          data.pageSize = data.length; // Tamanho da página
-        }
       }"
       class="display"
       width="100%"
