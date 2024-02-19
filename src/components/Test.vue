@@ -24,8 +24,9 @@ onMounted(() => {
       totalPages = data.totalPages;
       console.log(totalPages);
       const table = $('#example').DataTable(options.value);
-
+      
       table.on('draw.dt', function () {
+        
         const pageInfo = table.page.info();
         console.log("Número total de registros: ", pageInfo.recordsTotal);
         console.log("Número total de páginas: ", pageInfo.pages);
@@ -40,6 +41,8 @@ onMounted(() => {
     }
   });
 
+
+  
 });
 
 
@@ -68,6 +71,13 @@ interface Config {
   responsive: boolean;
   paging: boolean;
   pagingType: string;
+  layout: {
+        bottomEnd: {
+            paging: {
+                numbers: number
+            }
+        }
+    }
 }
 
 const options = ref<Config>({
@@ -90,7 +100,13 @@ const options = ref<Config>({
   responsive: true,
   paging: true,
   pagingType: 'full_numbers',
-  
+  layout: {
+        bottomEnd: {
+            paging: {
+                numbers: 8
+            }
+        }
+    },
 });
 
 
@@ -125,4 +141,5 @@ const options = ref<Config>({
 
 <style>
 @import 'datatables.net-dt';
+
 </style>

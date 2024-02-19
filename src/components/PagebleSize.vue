@@ -38,6 +38,7 @@ interface Config {
   responsive: boolean;
   paging: boolean;
   pagingType: string;
+
 }
 
 const options = ref<Config>({
@@ -59,7 +60,8 @@ const options = ref<Config>({
   select: true,
   responsive: true,
   paging: true,
-  pagingType: 'full_numbers'
+  pagingType: 'full_numbers',
+ 
 });
 
 
