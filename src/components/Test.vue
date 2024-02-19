@@ -8,11 +8,41 @@ import $ from 'jquery';
 
 DataTable.use($);
 
-const apiUrl = `http://localhost:8080/company?size=10`;
+const apiUrl = `http://localhost:8080/company`;
+
 let ajaxConfig = {
   url: apiUrl,
   dataSrc: 'content'
 };
+let totalPages: number | null = null;
+
+onMounted(() => {
+  $.ajax({
+    url: apiUrl,
+    method: 'GET',
+    success: function (data) {
+      totalPages = data.totalPages;
+      console.log(totalPages);
+      const table = $('#example').DataTable(options.value);
+
+      table.on('draw.dt', function () {
+        const pageInfo = table.page.info();
+        console.log("Número total de registros: ", pageInfo.recordsTotal);
+        console.log("Número total de páginas: ", pageInfo.pages);
+        console.log("Número da página atual: ", pageInfo.page);
+        console.log("Índice do primeiro registro nesta página: ", pageInfo.start);
+        console.log("Índice do último registro nesta página: ", pageInfo.end);
+        console.log("Número de registros nesta página: ", pageInfo.length);
+      });
+    },
+    error: function (error) {
+      console.error('Erro ao obter o total de páginas:', error);
+    }
+  });
+
+});
+
+
 const columns = [
   { data: 'ID' },
   { data: 'DESCRIPTION' },
@@ -59,35 +89,20 @@ const options = ref<Config>({
   select: true,
   responsive: true,
   paging: true,
-  pagingType: 'full_numbers'
+  pagingType: 'full_numbers',
+  
 });
 
 
 
-onMounted(() => {
-  const table = $('#example').DataTable(options.value);
 
-  table.on('length.dt', function (_e: any, _settings: any, len: any) {
-    console.log(len);
-    ajaxConfig.url = `http://localhost:8080/company?size=${len}`;
-    table.ajax.url(ajaxConfig.url).load(); // Change the URL and reload the table data
-    console.log(ajaxConfig.url ); 
-  });
-});
 </script>
 
 <template>
   <div>
     <h1>Ajax data source table</h1>
 
-    <DataTable
-      :columns="columns"
-      :options="options"
-      id="example"
-      :ajax="ajaxConfig"
-      class="display"
-      width="100%"
-    >
+    <DataTable :columns="columns" :options="options" id="example" :ajax="ajaxConfig" class="display" width="100%">
       <thead>
         <tr>
           <th>ID</th>
