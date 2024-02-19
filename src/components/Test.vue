@@ -23,7 +23,7 @@ const columns = [
       :columns="columns"
       id="example"
       :ajax="{
-        url: '/data3.json',
+        url: 'http://localhost:8080/company',
         dataSrc: 'content',
       }"
       class="display"
